@@ -1,0 +1,33 @@
+int vlan 10
+ip add 192.168.10.2 255.255.255.0
+ip help 10.10.10.2
+int vlan 20
+ip add 192.168.20.2 255.255.255.0
+ip help 10.10.10.2
+int vlan 30
+ip add 192.168.30.2 255.255.255.0
+ip help 10.10.10.2
+int vlan 40
+ip add 192.168.40.2 255.255.255.0
+ip help 10.10.10.2
+int vlan 50
+ip add 192.168.50.2 255.255.255.0
+ip help 10.10.10.2
+int vlan 60
+ip add 192.168.60.2 255.255.255.0
+ip help 10.10.10.2
+int vlan 70
+ip add 192.168.70.2 255.255.255.0
+ip help 10.10.10.2
+int vlan 80
+ip add 192.168.80.2 255.255.255.0
+ip help 10.10.10.2
+int vlan 90
+ip add 192.168.90.2 255.255.255.0
+ip help 10.10.10.2
+int vlan 200
+ip add 200.200.200.2 255.255.255.0
+ip help 10.10.10.2
+int vlan 100
+ip add 192.168.100.2 255.255.255.0
+ip help 10.10.10.2

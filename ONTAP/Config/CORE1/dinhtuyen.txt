@@ -1,0 +1,6 @@
+ip routing
+router eigrp 10
+network 172.16.0.4 0.0.0.3
+network 172.16.0.24 0.0.0.3
+network 172.16.0.28 0.0.0.3
+network 172.16.0.32 0.0.0.3

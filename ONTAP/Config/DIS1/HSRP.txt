@@ -1,0 +1,44 @@
+int vlan 10
+standby 10 ip 192.168.10.1
+standby 10 prio 110
+standby 10 preempt
+int vlan 20
+standby 20 ip 192.168.20.1
+standby 20 prio 110
+standby 20 preempt
+int vlan 30
+standby 30 ip 192.168.30.1
+standby 30 prio 110
+standby 30 preempt
+int vlan 40
+standby 40 ip 192.168.40.1
+standby 40 prio 110
+standby 40 preempt
+int vlan 50
+standby 50 ip 192.168.50.1
+standby 50 prio 110
+standby 50 preempt
+int vlan 60
+standby 60 ip 192.168.60.1
+standby 60 prio 110
+standby 60 preempt
+int vlan 70
+standby 70 ip 192.168.70.1
+standby 70 prio 110
+standby 70 preempt
+int vlan 80
+standby 80 ip 192.168.80.1
+standby 80 prio 110
+standby 80 preempt
+int vlan 90
+standby 90 ip 192.168.90.1
+standby 90 prio 110
+standby 90 preempt
+int vlan 200
+standby 200 ip 200.200.200.1
+standby 200 prio 110
+standby 200 preempt
+int vlan 100
+standby 100 ip 192.168.100.1
+standby 100 prio 110
+standby 100 preempt

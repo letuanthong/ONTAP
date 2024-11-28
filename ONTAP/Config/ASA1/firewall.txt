@@ -1,0 +1,29 @@
+inter g1/1
+nameif OUTSIDE
+security-level 40
+ex
+
+inter g1/2
+nameif INSIDE
+security-level 100
+ex
+
+inter g1/3
+nameif DMZ
+security-level 100
+ex
+
+class-map inspection_default
+match default-inspection-traffic
+ex
+
+policy-map global_policy
+class inspection_default
+inspect icmp
+ex
+ex
+
+object network DMZ
+subnet 10.10.10.0 255.255.255.240
+access-list DMZ extended permit ip object DMZ any
+access-group DMZ in interface DMZ

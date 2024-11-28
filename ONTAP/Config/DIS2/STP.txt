@@ -1,0 +1,12 @@
+spanning-tree mode rapid-pvst
+spanning-tree vlan 10 root secondary
+spanning-tree vlan 20 root secondary
+spanning-tree vlan 30 root secondary
+spanning-tree vlan 40 root secondary
+spanning-tree vlan 50 root secondary
+spanning-tree vlan 60 root secondary
+spanning-tree vlan 70 root secondary
+spanning-tree vlan 80 root secondary
+spanning-tree vlan 90 root secondary
+spanning-tree vlan 200 root secondary
+spanning-tree vlan 100 root secondary

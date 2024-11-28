@@ -1,0 +1,4 @@
+router eigrp 10
+passive-interface GigabitEthernet0/0
+network 100.100.200.0 255.255.255.0
+network 209.165.100.4 0.0.0.3

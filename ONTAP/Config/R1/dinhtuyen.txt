@@ -1,0 +1,5 @@
+ip routing
+router eigrp 10
+network 209.165.100.0 0.0.0.3
+network 172.16.0.0 0.0.0.3
+redistribute static metric 1000000 10 255 1 1500

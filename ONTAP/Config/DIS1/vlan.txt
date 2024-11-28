@@ -1,0 +1,26 @@
+vlan 10
+name LETAN
+vlan 20
+name HANHCHINH
+vlan 30
+name MARKETING
+vlan 40
+name NHANSU
+vlan 50
+name KETOAN
+vlan 60
+name KINHDOANH
+vlan 70
+name KYTHUAT
+vlan 80
+name PHOGIAMDOC
+vlan 90
+name GIAMDOC
+vlan 200
+name KHACHHANG
+vlan 100
+name WLC
+ex
+
+Interface range G1/0/1-4
+switchport mode trunk

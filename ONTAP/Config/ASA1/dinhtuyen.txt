@@ -1,0 +1,5 @@
+router eigrp 10
+network 172.16.0.0 0.0.0.3
+network 172.16.0.4 0.0.0.3
+network 172.16.0.8 0.0.0.3
+passive-interface DMZ

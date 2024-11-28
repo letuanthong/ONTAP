@@ -1,0 +1,4 @@
+vtp domain bank.com
+vtp version 2
+vtp mode server
+vtp pass bank

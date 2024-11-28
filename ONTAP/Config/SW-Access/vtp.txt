@@ -1,0 +1,7 @@
+vtp domain bank.com
+vtp version 2
+vtp mode client
+vtp pass bank
+
+Interface range G0/1-2
+switchport mode trunk

@@ -1,0 +1,11 @@
+ip routing
+router eigrp 10
+net 192.168.0.0 0.0.255.255
+net 200.200.200.0 0.0.0.255
+net 172.16.0.32 0.0.0.3
+net 172.16.0.36 0.0.0.3
+net 172.16.0.44 0.0.0.3
+passive-interface GigabitEthernet1/0/1
+passive-interface GigabitEthernet1/0/2
+passive-interface GigabitEthernet1/0/3
+passive-interface GigabitEthernet1/0/4
